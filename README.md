@@ -2,6 +2,11 @@
 
 **A quickstart project for unit testing on Odin using JUnit 5.**
 
+## Prerequisites
+
+The instructions on this page assume you're cloning the project on
+an Odin account with the CSCI 1302 profile activated.
+
 ## Getting Started
 
 1. Clone this project:

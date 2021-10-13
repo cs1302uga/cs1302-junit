@@ -46,6 +46,31 @@ an Odin account with the CSCI 1302 profile activated.
    $ ConsoleLauncher -cp bin -c cs1302.test.Tests
    ```
 
+   ```text
+   Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+   ╷
+   ├─ JUnit Jupiter ✔
+   │  └─ REPLACE-ME ✔
+   │     ├─ descriptive name for testThat() ✔
+   │     └─ descriptive name for testThis() ✔
+   └─ JUnit Vintage ✔
+
+   Test run finished after 75 ms
+   [         3 containers found      ]
+   [         0 containers skipped    ]
+   [         3 containers started    ]
+   [         0 containers aborted    ]
+   [         3 containers successful ]
+   [         0 containers failed     ]
+   [         2 tests found           ]
+   [         0 tests skipped         ]
+   [         2 tests started         ]
+   [         0 tests aborted         ]
+   [         2 tests successful      ]
+   [         0 tests failed          ]
+   ```
+
    If you need to include more dependencies on the classpath, then separate them
    with a colon as usual. For example:
 

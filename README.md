@@ -52,11 +52,27 @@ an Odin account with the CSCI 1302 profile activated.
    ╷
    ├─ JUnit Jupiter ✔
    │  └─ REPLACE-ME ✔
-   │     ├─ descriptive name for testThat() ✔
+   │     ├─ descriptive name for testThat() ✘ expected: java.lang.String@3e8c3cb<hello> but was: java.lang.String@563f38c4<hello>
    │     └─ descriptive name for testThis() ✔
    └─ JUnit Vintage ✔
 
-   Test run finished after 75 ms
+   Failures (1):
+     JUnit Jupiter:REPLACE-ME:descriptive name for testThat()
+       MethodSource [className = 'cs1302.test.Tests', methodName = 'testThat', methodParameterTypes = '']
+       => org.opentest4j.AssertionFailedError: expected: java.lang.String@3e8c3cb<hello> but was: java.lang.String@563f38c4<hello>
+          org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+          org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:48)
+          org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+          org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+          org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2851)
+          cs1302.test.Tests.testThat(Tests.java:29)
+          java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+          java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+          java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+          java.base/java.lang.reflect.Method.invoke(Method.java:566)
+          [...]
+
+   Test run finished after 80 ms
    [         3 containers found      ]
    [         0 containers skipped    ]
    [         3 containers started    ]
@@ -67,8 +83,8 @@ an Odin account with the CSCI 1302 profile activated.
    [         0 tests skipped         ]
    [         2 tests started         ]
    [         0 tests aborted         ]
-   [         2 tests successful      ]
-   [         0 tests failed          ]
+   [         1 tests successful      ]
+   [         1 tests failed          ]
    ```
 
    If you need to include more dependencies on the classpath, then separate them

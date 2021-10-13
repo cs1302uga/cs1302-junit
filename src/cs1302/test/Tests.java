@@ -25,7 +25,7 @@ public class Tests {
     @DisplayName("descriptive name for testThat()")
     public void testThat() {
         String expected = "hello";
-        String actual = "h" + "ell" + "o";
+        String actual = new String("hello");
         assertSame(expected, actual);
     } // testThat
 

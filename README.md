@@ -20,7 +20,15 @@ an Odin account with the CSCI 1302 profile activated.
    $ cd cs1302-junit
    ```
 
-2. Compile the test cases:
+2. Inspect the tests:
+
+    ```text
+    $ cat src/cs1302/test/Tests.java
+    ```
+
+    You can also click [here](src/cs1302/test/Tests.java) to see `Tests.java`.
+
+3. Compile the test cases:
 
    ```text
    $ javac -cp ${JUNIT_JAR} src/cs1302/test/Tests.java
@@ -32,7 +40,7 @@ an Odin account with the CSCI 1302 profile activated.
    ```text
    $ javac -cp ${JUNIT_JAR}:bin:some/other/path:some/lib.jar  src/cs1302/test/Tests.java
    ```
-3. Run the test cases on Odin using JUnit's Console Launcher:
+4. Run the test cases on Odin using JUnit's Console Launcher:
 
    ```text
    $ ConsoleLauncher -cp bin -c cs1302.test.Tests

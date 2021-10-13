@@ -10,6 +10,7 @@ an Odin account with the CSCI 1302 profile activated.
 ## Resources
 
 * [JUnit 5.8.1 API](https://junit.org/junit5/docs/5.8.1/api/)
+* [JUnit 5.8.1 User Guide: Writing Tests](https://junit.org/junit5/docs/5.8.1/user-guide/#writing-tests)
 
 ## Getting Started
 
